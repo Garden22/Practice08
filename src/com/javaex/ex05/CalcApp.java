@@ -17,7 +17,7 @@ public class CalcApp {
     			break;
     		
     		} else {
-    			int a = Integer.valueOf(nums[0]);
+    			int a = Integer.valueOf(nums[0]); // 처리방법... 다시 고민...
     			int b = Integer.valueOf(nums[2]);
     			
         		if (nums[1].equals("+")) {

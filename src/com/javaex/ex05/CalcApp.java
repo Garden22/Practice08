@@ -28,7 +28,11 @@ public class CalcApp {
         		} else if (nums[1].equals("/")) {
         			Div cal = new Div();
         			cal.setValue(a, b);
-        			System.out.println(cal.calculate());
+        			try {
+        				System.out.println(cal.calculate());
+        			} catch (ArithmeticException e) {
+        				System.out.println("0으로 나눌 수 없습니다.");
+        			}
         			
         		} else if (nums[1].equals("*")) {
         			Mul cal = new Mul();

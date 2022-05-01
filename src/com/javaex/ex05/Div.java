@@ -11,12 +11,7 @@ public class Div {
     }
 
     public int calculate() {
-    	try {
-    		return a / b;
-    	} catch (ArithmeticException e) {
-    		System.out.println("0으로 나눌 수 없습니다.");
-    		return 0;
-    	}
+    	return a / b;
     }
 
 }
